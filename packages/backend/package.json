@@ -17,12 +17,20 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "migration:run": "knex migrate:make Posts -x ts",
+    "migrate:rollback": "knex migrate:rollback",
+    "migrate:latest": "knex migrate:latest"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.4.5",
+    "knex": "^3.1.0",
+    "objection": "^3.1.4",
+    "pg": "^8.11.5",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
@@ -33,6 +41,7 @@
     "@types/express": "^4.17.17",
     "@types/jest": "^*",
     "@types/node": "^*",
+    "@types/pg": "^8",
     "@types/supertest": "^*",
     "@typescript-eslint/eslint-plugin": "^*",
     "@typescript-eslint/parser": "^*",
@@ -42,6 +51,7 @@
     "jest": "^*",
     "prettier": "^*",
     "source-map-support": "^0.5.21",
+    "sqlite3": "^5.1.7",
     "supertest": "^*",
     "ts-jest": "^*",
     "ts-loader": "^*",
