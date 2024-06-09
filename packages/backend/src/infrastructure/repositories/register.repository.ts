@@ -28,7 +28,7 @@ export class RegisterRepository implements IRegisterRepository {
   async findOne(id: number): Promise<Register | null> {
     const registerEntity = await this.registerRepository.findOneBy({ id });
 
-    return this.toModel(registerEntity);
+    return registerEntity ? this.toModel(registerEntity) : registerEntity;
   }
 
   async remove(id: number): Promise<void> {

@@ -31,7 +31,7 @@ export class UsersRepository implements IUserRepository {
   async findOne(id: number): Promise<User | null> {
     const userEntity = await this.usersRepository.findOneBy({ id });
 
-    return this.toModel(userEntity);
+    return userEntity ? this.toModel(userEntity) : userEntity;
   }
 
   async remove(id: number): Promise<void> {
