@@ -2447,21 +2447,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/cli@npm:13.7.1":
-  version: 13.7.1
-  resolution: "@nrwl/cli@npm:13.7.1"
-  dependencies:
-    "@nrwl/tao": "npm:13.7.1"
-    chalk: "npm:4.1.0"
-    enquirer: "npm:~2.3.6"
-    v8-compile-cache: "npm:2.3.0"
-    yargs-parser: "npm:20.0.0"
-  bin:
-    nx: bin/nx.js
-  checksum: 10c0/8822f5340dc50c5d79da4c132e54a192922ae4689036c4fce01ef1cd26f44fb09cb621dce24eaa30120c13f7c325aec15481773bd6e54870f19149b1ebf9eccb
-  languageName: node
-  linkType: hard
-
 "@nrwl/devkit@npm:19.0.4":
   version: 19.0.4
   resolution: "@nrwl/devkit@npm:19.0.4"
@@ -2477,29 +2462,6 @@ __metadata:
   dependencies:
     "@nx/devkit": "npm:19.2.2"
   checksum: 10c0/9b7df9e43314399ac9a091c5b1b9317f3b3769ddcaae36f412c704376365edcc6564801028946fac77d2a73a2bfb724d7e1ccf4193a71e845feb4b41f7f3f48f
-  languageName: node
-  linkType: hard
-
-"@nrwl/tao@npm:13.7.1":
-  version: 13.7.1
-  resolution: "@nrwl/tao@npm:13.7.1"
-  dependencies:
-    chalk: "npm:4.1.0"
-    enquirer: "npm:~2.3.6"
-    fast-glob: "npm:3.2.7"
-    fs-extra: "npm:^9.1.0"
-    ignore: "npm:^5.0.4"
-    jsonc-parser: "npm:3.0.0"
-    nx: "npm:13.7.1"
-    rxjs: "npm:^6.5.4"
-    rxjs-for-await: "npm:0.0.2"
-    semver: "npm:7.3.4"
-    tmp: "npm:~0.2.1"
-    tslib: "npm:^2.3.0"
-    yargs-parser: "npm:20.0.0"
-  bin:
-    tao: index.js
-  checksum: 10c0/4a5ec4d760d8e70603e05e91058c14c2405d890dc41ae91098264870d680e18213ef50a768e60795abe1d7f8c4ba846d878ecf6413945c73a986b6bba5456ab7
   languageName: node
   linkType: hard
 
@@ -4529,13 +4491,6 @@ __metadata:
   version: 0.4.0
   resolution: "asynckit@npm:0.4.0"
   checksum: 10c0/d73e2ddf20c4eb9337e1b3df1a0f6159481050a5de457c55b14ea2e5cb6d90bb69e004c9af54737a5ee0917fcf2c9e25de67777bbe58261847846066ba75bc9d
-  languageName: node
-  linkType: hard
-
-"at-least-node@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "at-least-node@npm:1.0.0"
-  checksum: 10c0/4c058baf6df1bc5a1697cf182e2029c58cd99975288a13f9e70068ef5d6f4e1f1fd7c4d2c3c4912eae44797d1725be9700995736deca441b39f3e66d8dee97ef
   languageName: node
   linkType: hard
 
@@ -6906,19 +6861,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.2.7":
-  version: 3.2.7
-  resolution: "fast-glob@npm:3.2.7"
-  dependencies:
-    "@nodelib/fs.stat": "npm:^2.0.2"
-    "@nodelib/fs.walk": "npm:^1.2.3"
-    glob-parent: "npm:^5.1.2"
-    merge2: "npm:^1.3.0"
-    micromatch: "npm:^4.0.4"
-  checksum: 10c0/cc820a9acbd99c51267d525ed3c0c368b57d273f8d34e2401eef824390ff38ff419af3c0308d4ec1aef3dae0e24d1ac1dfe3156e5c702d63416a4c877ab7e0c4
-  languageName: node
-  linkType: hard
-
 "fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
@@ -7233,18 +7175,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "fs-extra@npm:9.1.0"
-  dependencies:
-    at-least-node: "npm:^1.0.0"
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/9b808bd884beff5cb940773018179a6b94a966381d005479f00adda6b44e5e3d4abf765135773d849cc27efe68c349e4a7b86acd7d3306d5932c14f3a4b17a92
-  languageName: node
-  linkType: hard
-
 "fs-minipass@npm:^2.0.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -7327,7 +7257,6 @@ __metadata:
   resolution: "gamora@workspace:."
   dependencies:
     "@babel/preset-env": "npm:^7.24.5"
-    "@nrwl/cli": "npm:13.7.1"
     "@nrwl/workspace": "npm:^19.2.2"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:^20.12.12"
@@ -7353,9 +7282,6 @@ __metadata:
     ts-node: "npm:^10.9.2"
     tsconfig-paths: "npm:^4.2.0"
     typescript: "npm:^5.4.5"
-  dependenciesMeta:
-    "@nrwl/cli":
-      optional: true
   languageName: unknown
   linkType: soft
 
@@ -9285,13 +9211,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:3.0.0":
-  version: 3.0.0
-  resolution: "jsonc-parser@npm:3.0.0"
-  checksum: 10c0/373632ab71f773ce6081dd70297c40fbb05aacde07ab8a5852c78c0a13d1fadb7ad886202e87bfc0168dd78568cda2d4eb36e785dac330f93e5e772d7a67f33f
-  languageName: node
-  linkType: hard
-
 "jsonc-parser@npm:3.2.0":
   version: 3.2.0
   resolution: "jsonc-parser@npm:3.2.0"
@@ -10633,17 +10552,6 @@ __metadata:
     gauge: "npm:^4.0.3"
     set-blocking: "npm:^2.0.0"
   checksum: 10c0/0cacedfbc2f6139c746d9cd4a85f62718435ad0ca4a2d6459cd331dd33ae58206e91a0742c1558634efcde3f33f8e8e7fd3adf1bfe7978310cf00bd55cccf890
-  languageName: node
-  linkType: hard
-
-"nx@npm:13.7.1":
-  version: 13.7.1
-  resolution: "nx@npm:13.7.1"
-  dependencies:
-    "@nrwl/cli": "npm:13.7.1"
-  bin:
-    nx: bin/nx.js
-  checksum: 10c0/0a665fbea4532befb313c85b66175084e413f917d69ce0543132d6d93559f5c0a97f42ac4678aa2a8c8b498b7f2d24954a4b77ae4f0150e665579afa3001f96c
   languageName: node
   linkType: hard
 
@@ -12352,30 +12260,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs-for-await@npm:0.0.2":
-  version: 0.0.2
-  resolution: "rxjs-for-await@npm:0.0.2"
-  peerDependencies:
-    rxjs: ^6.0.0
-  checksum: 10c0/20f98281b1e9f7bf9c0da52f58e9d1404e875c71cf124a7672da2e43654b27e869aaf39fab60fed41d012cc6b8724206beb1156b506e9a7b9a8962d8b4ab9671
-  languageName: node
-  linkType: hard
-
 "rxjs@npm:7.8.1, rxjs@npm:^7.5.5, rxjs@npm:^7.8.1":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
     tslib: "npm:^2.1.0"
   checksum: 10c0/3c49c1ecd66170b175c9cacf5cef67f8914dcbc7cd0162855538d365c83fea631167cacb644b3ce533b2ea0e9a4d0b12175186985f89d75abe73dbd8f7f06f68
-  languageName: node
-  linkType: hard
-
-"rxjs@npm:^6.5.4":
-  version: 6.6.7
-  resolution: "rxjs@npm:6.6.7"
-  dependencies:
-    tslib: "npm:^1.9.0"
-  checksum: 10c0/e556a13a9aa89395e5c9d825eabcfa325568d9c9990af720f3f29f04a888a3b854f25845c2b55875d875381abcae2d8100af9cacdc57576e7ed6be030a01d2fe
   languageName: node
   linkType: hard
 
@@ -12449,17 +12339,6 @@ __metadata:
   bin:
     semver: bin/semver
   checksum: 10c0/e4cf10f86f168db772ae95d86ba65b3fd6c5967c94d97c708ccb463b778c2ee53b914cd7167620950fc07faf5a564e6efe903836639e512a1aa15fbc9667fa25
-  languageName: node
-  linkType: hard
-
-"semver@npm:7.3.4":
-  version: 7.3.4
-  resolution: "semver@npm:7.3.4"
-  dependencies:
-    lru-cache: "npm:^6.0.0"
-  bin:
-    semver: bin/semver.js
-  checksum: 10c0/16b77752071597135b934bb33258badbac6c1cebbabe507ce31f68db3229acae7afa9602265c375c34df092339caa738b105e0c62240536ea1efd4767c36e674
   languageName: node
   linkType: hard
 
@@ -13564,13 +13443,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.9.0":
-  version: 1.14.1
-  resolution: "tslib@npm:1.14.1"
-  checksum: 10c0/69ae09c49eea644bc5ebe1bca4fa4cc2c82b7b3e02f43b84bd891504edf66dbc6b2ec0eef31a957042de2269139e4acff911e6d186a258fb14069cd7f6febce2
-  languageName: node
-  linkType: hard
-
 "tslib@npm:^2.5.0":
   version: 2.6.3
   resolution: "tslib@npm:2.6.3"
@@ -14014,13 +13886,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"v8-compile-cache@npm:2.3.0":
-  version: 2.3.0
-  resolution: "v8-compile-cache@npm:2.3.0"
-  checksum: 10c0/b2d866febf943fbbf0b5e8d43ae9a9b0dacd11dd76e6a9c8e8032268f0136f081e894a2723774ae2d86befa994be4d4046b0717d82df4f3a10e067994ad5c688
-  languageName: node
-  linkType: hard
-
 "v8-to-istanbul@npm:^9.0.1":
   version: 9.2.0
   resolution: "v8-to-istanbul@npm:9.2.0"
@@ -14412,13 +14277,6 @@ __metadata:
   bin:
     yaml: bin.mjs
   checksum: 10c0/280ddb2e43ffa7d91a95738e80c8f33e860749cdc25aa6d9e4d350a28e174fd7e494e4aa023108aaee41388e451e3dc1292261d8f022aabcf90df9c63d647549
-  languageName: node
-  linkType: hard
-
-"yargs-parser@npm:20.0.0":
-  version: 20.0.0
-  resolution: "yargs-parser@npm:20.0.0"
-  checksum: 10c0/57737f9a5a16907513928aa4307641b04d0686543b9c31d827f26f3013715b3d6e32334022924ddf1b3b82170a4eb2393eae47dca38db3ed5659637a3afd1157
   languageName: node
   linkType: hard
 
